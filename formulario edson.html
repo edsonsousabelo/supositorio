@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="get">
+    <fieldset>
+        <legend>Identificação do usuário</legend>
+        <label for="">Nome do Caloteiro</label>
+        <input type="text" name="nome" id="inome"><br><br>
+        <label for="">email do Infeliz:</label>
+        <input type="Email" name="Email"><br><br>
+        <fieldset>
+            <legend>Sexo Selvagem</legend>
+            <label for="imasc">Machoman</label>
+            <input type="radio" name="sexo" id="imasc" >
+            <label for="ifem">Mina de fé</label>
+            <input type="radio" name="sexo" id="ifem">
+            <label for="iceb">Cebola</label>
+            <input type="radio" name="sexo" id="iceb">
+                        </fieldset><br><br>
+            <label for="inascimento">Data do Nascimento</label>
+            <input type="date" name="nascimento" id="inascimento">
+    </fieldset>
+    <fieldset>
+        <legend>Esconderijo do Safado</legend>
+        <label for="ilog">Logradouro</label>
+        <input type="text" name="logradouro" id="ilog"><br><br>
+        <label for="inum">Número</label>
+        <input type="number" name="número" id="inum"><br><br>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <optgroup label="Região Morte">
+            <option value="">Pará</option>
+            <option value="">Porto galoduro</option>
+            <option value="">Afeganistão</option>
+            <option value="">Ukrânya</option>
+            <option value="">Russia</option>
+            <option value="">Guamáquistão</option>
+        </optgroup>
+        <optgroup label="Região Ladrão">
+            <option value="">Pratinha</option>
+            <option value="">Barreiro</option>
+            <option value="">Sacrabala</option>
+            <option value="">Benguí</option>
+            <option value="">40 Horas</option>
+            <option value="">Paracurí</option>
+        </optgroup>
+        </select><br><br>
+        <label for="icidade">Cidade:</label>
+        <input type="text" name="Cidade" id="icidade" list="lcidade">
+        <datalist id="lcidade">
+            <option value="Belém"></option>
+            <option value="marituba"></option>
+            <option value="Pratinha"></option>
+        </datalist><br><br>
+           <label for="mensagem para o Jones">Mensagem para o Jones</label>
+           <textarea name="Mensagem" id="imsg" cols="10" rows="5" placeholder="Mansagem para Jones Shuastainghert"></textarea><br><br>
+           <label for="iurgente">Grau de Urgência:  </label> <br> 
+         Insatisfeito<input type="range" name="urgente" id="iurgente" step="2">Muito satisfeito
+    </fieldset>
+    <fieldset> 
+        <legend>Gosto Musical</legend>
+        <label for="isamba">Samba</label>
+        <input type="checkbox" name="samba" id="isamba" value="Samba"><br>
+        <label for="irock">Rock</label>
+        <input type="checkbox" name="Rock" id="irock" value="Rock"><br>
+        <label for="icebola">Cebola</label>
+        <input type="checkbox" name="Cebola" id="icebola" value="Cebola"><br>
+        </fieldset>
+<br><br>
+        <Input type="submit" value="Cadastrar">
+
+</form>
+    
+</body>
+</html>
